@@ -10,10 +10,10 @@
         SELECT * FROM table_name WHERE id = 1;
 
     - Seleccionar columna en específico
-    SELECT colum_name FROM table name
+    SELECT colum_name FROM table_name
 
     - El operador AND agrega otra condición a la búsqueda
-        SELECT * FROM table_name WHERE column1 = n1 AND column2= n2;        
+        SELECT * FROM table_name WHERE column1 = v1 AND column2= v2;        
  */
 
  /* UPDATE */
@@ -21,7 +21,7 @@
  /* 
     - Cambiar valor a registro según valor en la columna
 
-    UPDATE table_name SET col_name_to_change_value = 'new_value' WHERE id = idValue; 
+    UPDATE table_name SET column_name = 'new_value' WHERE id = idValue; 
   */
 
 /* DELETE */

@@ -7,10 +7,11 @@ https://youtu.be/uUdKAYl-F7g?t=2536
 INSERT INTO tablename (column)
 VALUES ('data')
 
+# Insertar varios datos
+
 INSERT INTO tablename (column1, column2)
 VALUES ('data1', 'data2')
 
-/ Insertar varios datos
 
 /* Modificar columnas */
 
