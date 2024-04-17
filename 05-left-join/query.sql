@@ -18,7 +18,6 @@
     -- Combina la información de dos tablas relacionadas. Incluye todos los registros de la primera tabla (origen/izq) añadiendo datos o null según id de la FK (destino/der)
 
 -- ALIAS
-    select from user u
     select u.id, u.email from user u;
 
 -- REALIZAR LEFT JOIN
